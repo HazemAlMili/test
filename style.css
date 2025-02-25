@@ -1,0 +1,42 @@
+body {
+    background-image: linear-gradient(to right,
+            rgb(255, 255, 255),
+            rgb(108, 102, 102));
+}
+
+table {
+    border: 1px solid #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+
+}
+
+table th {
+    border: 1px solid black;
+    width: 40%;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+table th:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+table td {
+    border: 2px dotted black;
+    text-align: center;
+    transition: 0.2s;
+    cursor: pointer;
+    width: 16.66%;
+}
+
+table td:hover {
+    background-color: #000;
+    color: white;
+}
