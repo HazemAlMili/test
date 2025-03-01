@@ -29,11 +29,12 @@ table th:hover {
 }
 
 table td {
-    border: 2px dotted black;
+    border: 1px solid black;
     text-align: center;
     transition: 0.2s;
     cursor: pointer;
-    width: 16.66%;
+    padding: 20px;
+    width: fit-content;
 }
 
 table td:hover {
